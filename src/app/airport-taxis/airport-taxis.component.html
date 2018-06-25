@@ -1,0 +1,45 @@
+<div id="image" >
+
+    <h2>Book Your Ride Instantly</h2>
+    
+    <form action="/action_page.php">
+    <fieldset id="fieldset" >
+    <legend></legend><br><br>
+    
+    
+     <label class=Deco> Pick-up Location:</label><br><br>
+      <input type="text" name="Cape Town" #PickupLocation>
+      <br>
+      
+    
+    
+     <label class="Deco">Pick-up Date:</label><br><br>
+      <input type="date" placeholder="depart" #PickupDate>
+      <br><br>
+
+    
+    <label class="Deco">Drop-off Date:</label><br><br>
+    <input type="date" placeholder="return" #DropoffDate><br><br>
+
+    <label class="Deco">Time</label><br><br>
+      <input type="Time" placeholder="Time" #Time><br><br>
+
+    <label class="Deco">Passengers:</label><br><br>
+    <input type="number" placeholder="Passangers" #Passangers><br><br><br>
+
+    <a routerLink="/Comfirmation"><input type="submit" value="Submit" (click)="Book(PickupLocation.value,PickupDate.value,DropoffDate.value,Time.value,Passangers.value)"></a>
+
+    
+
+
+</fieldset>
+</form>
+
+
+</div>
+
+<footer>
+
+    <marquee><h4>Live your dream today, like there's no tomorrow!</h4></marquee>
+    
+  </footer>

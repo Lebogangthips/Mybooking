@@ -1,0 +1,44 @@
+
+
+<div id="image" >
+
+<h2>Search hundreds of travel sites at once.</h2>
+
+<form action="/action_page.php">
+<fieldset id="fieldset" >
+<legend></legend><br><br>
+
+
+ <label class=Deco> Current Location: </label><br><br>
+  <input type="text" name="Cape Town" #CurrentLocation>
+  <br><br>
+
+ <label class=Deco>Destination :</label><br><br>
+  <input type="text" name="Johannesburg" #Destination>
+  <br><br>
+
+ <label class="Deco">Depart:</label><br><br>
+  <input type="date" placeholder="depart" #Depart>
+  <br><br>
+
+<label class="Deco">Return: </label><br><br>
+<input type="date" placeholder="return" #Return>
+
+  <br><br>
+
+  <a routerLink="/Comfirmation"><input type="submit" value="Submit" (click)="Book(CurrentLocation.value,Destination.value,Depart.value,Return.value)"></a>
+
+ 
+
+  </fieldset>
+</form>
+
+
+
+</div>
+
+<footer>
+
+    <marquee><h4>Live your dream today, like there's no tomorrow!</h4></marquee>
+    
+  </footer>
